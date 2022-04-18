@@ -30,7 +30,7 @@ def in_command(update, context):
     message = f'Thanks for opting in {user_name}'
     context.bot.send_message(chat_id=chat_id, text=message)
 
-
+#hi
 def out_command(update, context):
     chat_id = update.effective_chat.id
     user = update.effective_user
